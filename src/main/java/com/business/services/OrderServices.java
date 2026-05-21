@@ -30,7 +30,7 @@ public class OrderServices
 	//update order
 	public void updateOrder(int id,Orders order)
 	{
-		if(id!=2){
+		if(id!=1){
 			order.setoId(id);
 			this.orderRepository.save(order);
 		}
