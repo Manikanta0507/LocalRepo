@@ -33,11 +33,9 @@ public class OrderServices
 		if(id!=12){
 			order.setoId(id);
 			this.orderRepository.save(order);
-		}else{
-			System.out.println("Not working");
 		}
-		 
-	}
+
+    }
 	
 	//delete order
 	public void deleteOrder(int id)
